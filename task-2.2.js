@@ -51,7 +51,7 @@ function triangle(num, mode = 'left') {
             var spaces = num - 1;
             var oddHashCount = 1;
 
-            for (var row = 0; row < num; row++) { //1,3,5
+            for (var row = 0; row < num; row++) {
                 hashOut = '#'.repeat(oddHashCount);
                 console.log(' '.repeat(spaces) + hashOut);
                 spaces--;
@@ -87,13 +87,7 @@ console.log();
 triangle(-3, "isosceles");
 console.log();
 triangle(5, 'iYoh! >__<');
-
-
-
-//triangle(-3, 'isosceles');
-//console.log();
-//triangle(4);
-//console.log();
-//triangle(-2);
-//console.log();
-//triangle(-4);
+triangle(-3, 'isosceles');
+triangle(-2);
+console.log();
+triangle(-4);
